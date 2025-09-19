@@ -10,6 +10,7 @@ import time
 import re
 import threading
 
+
 # Configuración de logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -232,10 +233,11 @@ def load_game_history():
         logger.error(f"Error al cargar historial: {e}")
         return []
 
+
 # CSS estilo D&D
 dnd_css = """
 .gradio-container {
-    background: url('https://www.cosmocover.com/wp-content/uploads/2017/08/SEGA_Forever_-_Golden_Axe_-_Art_1503310047.png');
+    background: url('https://i.postimg.cc/yN2F8hxH/goldenaxe.png');
     background-size: cover;
     font-family: 'Times New Roman', serif;
 }
@@ -408,5 +410,5 @@ if __name__ == "__main__":
         server_name="0.0.0.0",
         server_port=7861,
         show_error=True,
-        pwa=True
+        pwa=True        
     )
