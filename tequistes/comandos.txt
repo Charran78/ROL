@@ -1,0 +1,10 @@
+python DMIA.py
+
+.\mi_entorno\Scripts\activate ---no
+
+.\venv\Scripts\activate
+
+python -m venv mi_entorno
+
+
+cd users\xpite\desktop\rol
