@@ -235,7 +235,7 @@ def load_game_history():
 # CSS estilo D&D
 dnd_css = """
 .gradio-container {
-    background: url('https://www.cosmocover.com/wp-content/uploads/2017/08/SEGA_Forever_-_Golden_Axe_-_Art_1503310047.png');
+    background: url('https://i.postimg.cc/yN2F8hxH/goldenaxe.png');
     background-size: cover;
     font-family: 'Times New Roman', serif;
 }
